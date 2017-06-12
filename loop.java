@@ -1,0 +1,17 @@
+import java.util.*;
+public class loop
+{
+    public static void main(String[] args)
+    {
+        int sum=0;
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        for(int i=0;i<a;i++)
+        {
+            for(int j=0;j<b;j++)
+            sum=a+b;
+        }
+        System.out.println(sum);
+    }
+}
